@@ -3,19 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tweet Dog Pics</title>
-    <script type="module" crossorigin src="/tweet-about-dogs/assets/index.724fbc1e.js"></script>
-    <link rel="stylesheet" href="/tweet-about-dogs/assets/index.5275d2cc.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
-    /><link
+    />
+    <link
       rel="apple-touch-icon"
       sizes="57x57"
       href="data:image/png;base64,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Lr8MuTG45yfQ9NCiCtvfQdcMqD0EiW7fmvmUH5C8AghB4doNJv7wRwq3ZnGzDtKRaKZG9ECMRF+SaHcNesjw67il5pj81N+w7h9CtN2HrbsP5q7B7f9A44nFVPbVXRMI3XcvKw7x7vIuW2OE95/GjEr0sElgT5BgUwgrGUCzNB9OruZsAtIDcOW30P0jfxONhUZZ5fgdvfABX6+GxxugaPiKi5JLqrXglnIKyN6AwVfh6Avgzq9aHu44JHYWXLu8+ZsNEUKDzHXUrbOI7MjqG7nTjH4Q8qC6kmBNcUb+jvKKWLq2Yqadv4RVXkX5t1qwV0ohpVx3GhMbt5inWCyWSr4y6s5DCm0xPyqlsO3V25q24yClXLMtKYQgGApSsCUycU/5mHdHQOoBEAYLH6XjuivqIyGEfxgvFte1qK7p6FaIoqos3nce0oz5J5aSrOWaumFQyOc3ng4bd/bGHQZphH1rKhZvrlzXWXVo0bbXv90CTNNAzU9UuPXOQ+oBMKOUKEEIPG91l3Rse8OrAiEEys5WtEbvAEgLwuVDs6YZyNoeMCMVURd8V3Y9b8MptUCk4tpw5yGFDrH2xY65JoCGPuh6tlx8lyQYClHI59c9uCkFZk1rRe915yEBws2L7QxdE35GaToJXT+oCErhUAhN18lms3hSIpXCcV28JdZVRgSjpq1i+jsDMtLqu6yS6LqOjq+0NOOoJdfxuVwOz3XJZDKMj40xOztLPp8vQyqJHmtZAbnzZZ2SIG3/f2DNDaNpAq3kkHZmAtNz0IXAdRxSk9MYpkVtIkZtMollWZW3X4DgTizQpz+Ha39FFaYQQkMohaH7aSIQbwUjCO48jm1T03GCPbVhQu64f6O9PNIKHRIHV/Rj/wuiqcmTLwLpzAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNC0xMlQxNTowNTowMSswMDowMAvc3iUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDQtMTJUMTU6MDU6MDErMDA6MDB6gWaZAAAAIHRFWHRzb2Z0d2FyZQBodHRwczovL2ltYWdlbWFnaWNrLm9yZ7zPHZ0AAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AAAAYdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADE5MkBdcVUAAAAXdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgAMTky06whCAAAABl0RVh0VGh1bWI6Ok1pbWV0eXBlAGltYWdlL3BuZz+yVk4AAAAXdEVYdFRodW1iOjpNVGltZQAxNjQ5Nzc1OTAx8/AjyQAAAA90RVh0VGh1bWI6OlNpemUAMEJClKI+7AAAAFZ0RVh0VGh1bWI6OlVSSQBmaWxlOi8vL21udGxvZy9mYXZpY29ucy8yMDIyLTA0LTEyL2ZhZjFlZmQ4NTFjNzU5MDdhZDZjNWZmNzY1NmEwZTc5Lmljby5wbmc8AIjCAAAAAElFTkSuQmCC"
@@ -91,5 +85,12 @@
       content="/images/ms-icon-144x144.png"
     />
     <meta name="theme-color" content="#ffffff" />
+    <title>Tweet Dog Pics</title>
+    <script type="module" crossorigin src="/tweet-about-dogs/assets/index.724fbc1e.js"></script>
+    <link rel="stylesheet" href="/tweet-about-dogs/assets/index.5275d2cc.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
   </body>
 </html>
