@@ -60,7 +60,16 @@ function App() {
           }}
         >
           <RandomDog dogUrl={dogUrl} setDogUrl={setDogUrl} />
-          <Tweet dogUrl={dogUrl} />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "2rem",
+            }}
+          >
+            <Tweet dogUrl={dogUrl} />
+          </div>
         </div>
       </ForDevice>
     </div>

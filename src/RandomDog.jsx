@@ -65,7 +65,7 @@ function RandomDog({ dogUrl, setDogUrl }) {
           }}
         >
           <button className="next-doggo-btn" onClick={generateRandomDog}>
-            Generate new picture
+            Next Doggo
           </button>
         </div>
       )}
