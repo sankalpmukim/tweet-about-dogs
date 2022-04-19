@@ -1,5 +1,5 @@
 import RandomDog from "./RandomDog";
-import Tweet from "../Tweet";
+import Tweet from "./Tweet";
 import { useState } from "react";
 import { ForDevice } from "media-query-react";
 
