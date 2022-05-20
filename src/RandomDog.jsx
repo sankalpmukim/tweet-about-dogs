@@ -32,6 +32,7 @@ function RandomDog({ dogUrl, setDogUrl }) {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            width: "100%",
           }}
         >
           <ForDevice deviceName={["tablet", "desktop"]}>
@@ -62,6 +63,7 @@ function RandomDog({ dogUrl, setDogUrl }) {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            width: "100%",
           }}
         >
           <button className="next-doggo-btn" onClick={generateRandomDog}>
